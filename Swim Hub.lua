@@ -68,6 +68,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tmpro285-blip/SwimHub
  end
   })
 
+AddButton(Tab1o, {
+     Name = "Blue X Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+
   AddButton(Tab2o, {
      Name = "Fly Gui",
     Callback = function()
