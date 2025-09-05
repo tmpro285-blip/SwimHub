@@ -61,6 +61,13 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Break-In-(Story)-X-Hub-4566"
   end 
   })
 
+AddButton(Tab1o, {
+     Name = "Swim Hub main",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tmpro285-blip/SwimHubMain/refs/heads/main/SwimHubS1.lua"))()
+ end
+  })
+
   AddButton(Tab2o, {
      Name = "Fly Gui",
     Callback = function()
