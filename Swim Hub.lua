@@ -6,11 +6,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "Swim Hub"
          },
         Key = {
-        KeySystem = false,
+        KeySystem = true,
         Title = "Key System",
         Description = "",
         KeyLink = "",
-        Keys = {"1234"},
+        Keys = {"SwimHub_KeyFree123"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
