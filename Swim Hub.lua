@@ -53,7 +53,14 @@ AddButton(Tab1o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
   })
-  
+
+AddButton(Tab1o, {
+     Name = "X hub(breakInStory)",
+    Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Break-In-(Story)-X-Hub-4566"))()
+  end 
+  })
+
   AddButton(Tab2o, {
      Name = "Fly Gui",
     Callback = function()
