@@ -9,7 +9,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = true,
         Title = "SwimHub System",
         Description = "Free Key ở dưới",
-        KeyLink = "https://pastebin.com/raw/0s1az55w",
+        KeyLink = "https://link-hub.net/1393439/pOZyH5PCePP4",
         Keys = {"SwimHub_KeyFree123"},
         Notifi = {
         Notifications = true,
