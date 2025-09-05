@@ -7,15 +7,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          },
         Key = {
         KeySystem = true,
-        Title = "Key System",
-        Description = "",
-        KeyLink = "",
+        Title = "SwimHub System",
+        Description = "Free Key ở dưới",
+        KeyLink = "https://pastebin.com/raw/0s1az55w",
         Keys = {"SwimHub_KeyFree123"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Running the Script...",
-       Incorrectkey = "The key is incorrect",
-       CopyKeyLink = "Copied to Clipboard"
+        CorrectKey = "Đang nhận key...",
+       Incorrectkey = "Bạn đã nhập sai key",
+       CopyKeyLink = "sao chép link get key"
       }
     }
   })
@@ -51,5 +51,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
      Name = "Fly Gui",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  end
+  })
+
+AddButton(Tab2o, {
+     Name = "Infinite Yield",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   end
   })
