@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Swim Hub | Roblox by: MinhDepZai",
-         Animation = "Swim Hub"
+         Title = "Swim Hub (Beta) | Roblox by: MinhDepZai",
+         Animation = "Swim Hub (Beta)"
          },
         Key = {
         KeySystem = true,
@@ -96,4 +96,10 @@ AddButton(Tab2o, {
     Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   end
+  })
+
+AddButton(Tab6o, {
+     Name = "Comming Soon...",
+    Callback = function()
+  end  
   })
