@@ -1,5 +1,24 @@
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
+shared.LoaderTitle = "Đăng Ký Kênh Swim Hub";
+shared.LoaderKeyFrames = {
+    [1] = {
+        1,
+        10
+    },
+    [2] = {
+        2,
+        30
+    },
+    [3] = {
+        3,
+        60
+    },
+    [4] = {
+        2,
+        100
+    }
+};
        local Window = MakeWindow({
          Hub = {
          Title = "Swim Hub (Beta) | Roblox by: MinhDepZai",
