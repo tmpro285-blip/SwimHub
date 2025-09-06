@@ -84,6 +84,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/
  end
   })
 
+AddButton(Tab1o, {
+     Name = "Invisible(steal brain)",
+    Callback = function()
+ loadstring(game:HttpGet("https://pastefy.app/9YIyWc7E/raw"))() 
+ end
+ })
+
   AddButton(Tab2o, {
      Name = "Fly Gui",
     Callback = function()
