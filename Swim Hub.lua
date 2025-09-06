@@ -75,6 +75,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
   end
   })
 
+AddButton(Tab1o, {
+     Name = "OMG Hub(giống redz)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+ end
+  })
+
   AddButton(Tab2o, {
      Name = "Fly Gui",
     Callback = function()
