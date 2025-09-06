@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Swim Hub",
+         Title = "Swim Hub | Roblox by: MinhDepZai",
          Animation = "Swim Hub"
          },
         Key = {
