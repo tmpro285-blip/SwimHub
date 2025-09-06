@@ -6,7 +6,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "Swim Hub"
          },
         Key = {
-        KeySystem = false,
+        KeySystem = true,
         Title = "SwimHub System",
         Description = "Free Key ở dưới",
         KeyLink = "https://link-hub.net/1393439/pOZyH5PCePP4",
