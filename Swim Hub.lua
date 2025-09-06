@@ -99,7 +99,8 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/
   })
 
 AddButton(Tab6o, {
-     Name = "Comming Soon...",
+     Name = "Walk Speed",
     Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrScripterrFr/Speed-Changer/main/Speed%20Changer"))()
   end  
   })
