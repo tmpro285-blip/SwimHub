@@ -2,11 +2,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Swim Hub (Beta) | Roblox by: MinhDepZai",
+         Title = "Swim Hub (Beta) | Roblox by: Poca",
          Animation = "Swim Hub (Beta)"
          },
         Key = {
-        KeySystem = true,
+        KeySystem = false,
         Title = "SwimHub System",
         Description = "Free Key ở dưới",
         KeyLink = "https://link-hub.net/1393439/pOZyH5PCePP4",
@@ -87,7 +87,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/
 AddButton(Tab1o, {
      Name = "Invisible(steal brain)",
     Callback = function()
- loadstring(game:HttpGet("https://pastefy.app/9YIyWc7E/raw"))() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/heads/main/Kurdhub"))()
  end
  })
 
