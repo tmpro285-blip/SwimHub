@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Swim Hub (Beta) | Roblox by: Poca",
-         Animation = "Swim Hub (Beta)"
+         Title = "Swim Hub (Lite) | Roblox by: Poca",
+         Animation = "Swim Hub (lite)"
          },
         Key = {
         KeySystem = false,
@@ -88,6 +88,13 @@ AddButton(Tab1o, {
      Name = "Invisible(steal brain)",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/heads/main/Kurdhub"))()
+ end
+ })
+
+AddButton(Tab1o, {
+     Name = "Andepzai Beta!",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/main/AnDepZaiHubBeta.lua"))()
  end
  })
 
