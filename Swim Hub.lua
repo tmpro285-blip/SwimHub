@@ -88,7 +88,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/he
 AddButton(Tab1o, {
      Name = "Andepzai Beta!",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/main/AnDepZaiHubBeta.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/h6hbii/AnDepZaiHub/refs/heads/main/AndepzaiHub.lua"))()
  end
  })
 
