@@ -34,7 +34,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
      local Tab2o = MakeTab({Name = "Script Kaitun"}) 
 
-     local Tab6o = MakeTab({Name = "🛠️ Setting"})
+     local Tab3o = MakeTab({Name = "🛠️ Setting"})
+
+     local Tab4o = MakeTab({Name = "Comming soon.."})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -112,7 +114,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/
   end
   })
 
-AddButton(Tab6o, {
+AddButton(Tab3o, {
      Name = "Walk Speed",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MrScripterrFr/Speed-Changer/main/Speed%20Changer"))()
